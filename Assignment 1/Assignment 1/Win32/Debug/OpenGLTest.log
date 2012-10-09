@@ -1,0 +1,36 @@
+﻿Build started 9/10/2012 10:14:10 AM.
+     1>Project "C:\Users\jvmilazz\Documents\ASU\CSE 470 - Computer Graphics\Assignment 1\OpenGLTest\OpenGLTest.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\OpenGLTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing mainwindow.h...
+         Moc'ing mypanelopengl.h...
+         Uic'ing mainwindow.ui...
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\QtSDK\Desktop\Qt\4.8.1\msvc2010\include\QtCore /IC:\QtSDK\Desktop\Qt\4.8.1\msvc2010\include\QtGui /IC:\QtSDK\Desktop\Qt\4.8.1\msvc2010\include\QtOpenGL /IC:\QtSDK\Desktop\Qt\4.8.1\msvc2010\include /IC:\QtSDK\Desktop\Qt\4.8.1\msvc2010\include\ActiveQt /Idebug /I. /I"C:\QtSDK\Desktop\Qt\4.8.1\msvc2010\mkspecs\win32-msvc2010" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_OPENGL_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /Gm- /EHsc /MDd /GS- /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Debug\moc_mainwindow.cpp Debug\moc_mypanelopengl.cpp main.cpp mainwindow.cpp mypanelopengl.cpp -Zm200 -w34100 -w34189 
+         moc_mainwindow.cpp
+         moc_mypanelopengl.cpp
+         main.cpp
+         mainwindow.cpp
+         mypanelopengl.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\OpenGLTest.exe" /NOLOGO /LIBPATH:C:\QtSDK\Desktop\Qt\4.8.1\msvc2010\lib /LIBPATH:C:\QtSDK\Desktop\Qt\4.8.1\msvc2010\lib glu32.lib opengl32.lib gdi32.lib user32.lib C:\QtSDK\Desktop\Qt\4.8.1\msvc2010\lib\qtmaind.lib C:\QtSDK\Desktop\Qt\4.8.1\msvc2010\lib\QtOpenGLd4.lib C:\QtSDK\Desktop\Qt\4.8.1\msvc2010\lib\QtGuid4.lib C:\QtSDK\Desktop\Qt\4.8.1\msvc2010\lib\QtCored4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\OpenGLTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\jvmilazz\Documents\ASU\CSE 470 - Computer Graphics\Assignment 1\OpenGLTest\debug\OpenGLTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\Debug\moc_mainwindow.obj
+         Win32\Debug\moc_mypanelopengl.obj
+         Win32\Debug\main.obj
+         Win32\Debug\mainwindow.obj
+         Win32\Debug\mypanelopengl.obj "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" 
+         LINK : debug\\OpenGLTest.exe not found or not built by the last incremental link; performing full link
+     1>qtmaind.lib(qtmain_win.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'qtmaind.lib(qtmain_win.obj)' or at 'C:\Users\jvmilazz\Documents\ASU\CSE 470 - Computer Graphics\Assignment 1\OpenGLTest\debug\vc100.pdb'; linking object as if no debug info
+         OpenGLTest.vcxproj -> C:\Users\jvmilazz\Documents\ASU\CSE 470 - Computer Graphics\Assignment 1\OpenGLTest\debug\OpenGLTest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"debug\\OpenGLTest.exe;#1" /manifest Win32\Debug\OpenGLTest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\OpenGLTest.unsuccessfulbuild".
+         Touching "Win32\Debug\OpenGLTest.lastbuildstate".
+     1>Done Building Project "C:\Users\jvmilazz\Documents\ASU\CSE 470 - Computer Graphics\Assignment 1\OpenGLTest\OpenGLTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.82

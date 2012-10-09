@@ -1,0 +1,40 @@
+﻿Build started 10/8/2012 8:58:21 AM.
+     1>Project "C:\Users\jvmilazz\Documents\ASU\CSE 470 - Computer Graphics\labyrinth\labyrinth.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\labyrinth.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\include\GL /I.\include\Imath /I.\include\IlmThread /I.\include\Iex /I.\include\Half /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt loader.cpp main.cpp
+         main.cpp
+     1>c:\users\jvmilazz\documents\asu\cse 470 - computer graphics\labyrinth\main.cpp(340): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\jvmilazz\documents\asu\cse 470 - computer graphics\labyrinth\main.cpp(378): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\jvmilazz\documents\asu\cse 470 - computer graphics\labyrinth\main.cpp(378): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\jvmilazz\documents\asu\cse 470 - computer graphics\labyrinth\main.cpp(616): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\jvmilazz\documents\asu\cse 470 - computer graphics\labyrinth\main.cpp(616): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\jvmilazz\documents\asu\cse 470 - computer graphics\labyrinth\main.cpp(729): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\jvmilazz\documents\asu\cse 470 - computer graphics\labyrinth\main.cpp(735): warning C4305: '=' : truncation from 'double' to 'float'
+         loader.cpp
+     1>c:\users\jvmilazz\documents\asu\cse 470 - computer graphics\labyrinth\loader.cpp(10): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\jvmilazz\documents\asu\cse 470 - computer graphics\labyrinth\loader.cpp(74): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\jvmilazz\documents\asu\cse 470 - computer graphics\labyrinth\loader.cpp(80): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\jvmilazz\documents\asu\cse 470 - computer graphics\labyrinth\loader.cpp(85): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\labyrinth.exe.embed.manifest.res" Debug\labyrinth_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jvmilazz\Documents\ASU\CSE 470 - Computer Graphics\labyrinth\Debug\labyrinth.exe" /INCREMENTAL /NOLOGO /LIBPATH:./lib/ ./lib/freeglut/lib/freeglut.lib ./lib/IlmBase/lib/Half.lib ./lib/IlmBase/lib/Iex.lib ./lib/IlmBase/lib/IlmThread.lib ./lib/IlmBase/lib/Imath.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\labyrinth.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\jvmilazz\Documents\ASU\CSE 470 - Computer Graphics\labyrinth\Debug\labyrinth.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jvmilazz\Documents\ASU\CSE 470 - Computer Graphics\labyrinth\Debug\labyrinth.lib" /MACHINE:X86 Debug\labyrinth.exe.embed.manifest.res
+         Debug\loader.obj
+         Debug\main.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\labyrinth.exe.embed.manifest" /manifest Debug\labyrinth.exe.intermediate.manifest
+         
+     1>mt.exe : general error c101008a: Failed to save the updated manifest to the file "Debug\labyrinth.exe.embed.manifest". The parameter is incorrect.
+         
+     1>Done Building Project "C:\Users\jvmilazz\Documents\ASU\CSE 470 - Computer Graphics\labyrinth\labyrinth.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.93

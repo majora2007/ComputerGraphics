@@ -1,0 +1,2 @@
+a) To run the program via .exe, navigate to ./assignment0/Release/ and execute the executable.
+b) I implemented proper setting of square's color and changed the color to be purple.

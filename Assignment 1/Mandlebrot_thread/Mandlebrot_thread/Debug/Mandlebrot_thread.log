@@ -1,0 +1,20 @@
+﻿Build started 9/12/2012 12:41:03 PM.
+     1>Project "C:\Users\jvmilazz\Documents\ASU\CSE 470 - Computer Graphics\Assignment 1\Mandlebrot_thread\Mandlebrot_thread\Mandlebrot_thread.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Mandlebrot_thread.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\CSE 540 - Computer Architecture 2\ProgrammingAssignment1\Mandelbrot\mandelbrot_threads\mandelbrot.cpp"
+         mandelbrot.cpp
+     1>c:\users\jvmilazz\documents\asu\cse 540 - computer architecture 2\programmingassignment1\mandelbrot\mandelbrot_threads\mandelbrot.cpp(62): error C2365: 'y0' : redefinition; previous definition was 'function'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(469) : see declaration of 'y0'
+     1>c:\users\jvmilazz\documents\asu\cse 540 - computer architecture 2\programmingassignment1\mandelbrot\mandelbrot_threads\mandelbrot.cpp(63): error C2365: 'y1' : redefinition; previous definition was 'function'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(470) : see declaration of 'y1'
+     1>c:\users\jvmilazz\documents\asu\cse 540 - computer architecture 2\programmingassignment1\mandelbrot\mandelbrot_threads\mandelbrot.cpp(95): error C2659: '=' : function as left operand
+     1>c:\users\jvmilazz\documents\asu\cse 540 - computer architecture 2\programmingassignment1\mandelbrot\mandelbrot_threads\mandelbrot.cpp(96): error C2659: '=' : function as left operand
+     1>c:\users\jvmilazz\documents\asu\cse 540 - computer architecture 2\programmingassignment1\mandelbrot\mandelbrot_threads\mandelbrot.cpp(106): error C2664: 'mandelbrot_serial' : cannot convert parameter 2 from 'double (__cdecl *)(double)' to 'float'
+                 Context does not allow for disambiguation of overloaded function
+     1>Done Building Project "C:\Users\jvmilazz\Documents\ASU\CSE 470 - Computer Graphics\Assignment 1\Mandlebrot_thread\Mandlebrot_thread\Mandlebrot_thread.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.06

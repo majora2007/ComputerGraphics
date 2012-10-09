@@ -1,0 +1,34 @@
+﻿Build started 9/10/2012 4:33:31 PM.
+     1>Project "C:\Users\jvmilazz\Documents\ASU\CSE 470 - Computer Graphics\Assignment 1\Assignment 1\OpenGLTest.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>InitializeBuildStatus:
+         Creating "Win32\Release\OpenGLTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing mainwindow.h...
+         Moc'ing mypanelopengl.h...
+         Uic'ing mainwindow.ui...
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\QtSDK\Desktop\Qt\4.8.1\msvc2010\include\QtCore /IC:\QtSDK\Desktop\Qt\4.8.1\msvc2010\include\QtGui /IC:\QtSDK\Desktop\Qt\4.8.1\msvc2010\include\QtOpenGL /IC:\QtSDK\Desktop\Qt\4.8.1\msvc2010\include /IC:\QtSDK\Desktop\Qt\4.8.1\msvc2010\include\ActiveQt /Irelease /I. /I"C:\QtSDK\Desktop\Qt\4.8.1\msvc2010\mkspecs\win32-msvc2010" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D QT_OPENGL_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /D NDEBUG /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp mainwindow.cpp mypanelopengl.cpp Release\moc_mypanelopengl.cpp Release\moc_mainwindow.cpp -Zm200 -w34100 -w34189 
+         main.cpp
+         mainwindow.cpp
+         mypanelopengl.cpp
+         moc_mypanelopengl.cpp
+         moc_mainwindow.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"release\\OpenGLTest.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\QtSDK\Desktop\Qt\4.8.1\msvc2010\lib /LIBPATH:C:\QtSDK\Desktop\Qt\4.8.1\msvc2010\lib glu32.lib opengl32.lib gdi32.lib user32.lib C:\QtSDK\Desktop\Qt\4.8.1\msvc2010\lib\qtmain.lib C:\QtSDK\Desktop\Qt\4.8.1\msvc2010\lib\QtOpenGL4.lib C:\QtSDK\Desktop\Qt\4.8.1\msvc2010\lib\QtGui4.lib C:\QtSDK\Desktop\Qt\4.8.1\msvc2010\lib\QtCore4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Release\OpenGLTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\jvmilazz\Documents\ASU\CSE 470 - Computer Graphics\Assignment 1\Assignment 1\release\OpenGLTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\Release\main.obj
+         Win32\Release\mainwindow.obj
+         Win32\Release\mypanelopengl.obj
+         Win32\Release\moc_mypanelopengl.obj
+         Win32\Release\moc_mainwindow.obj "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" 
+         OpenGLTest.vcxproj -> C:\Users\jvmilazz\Documents\ASU\CSE 470 - Computer Graphics\Assignment 1\Assignment 1\release\OpenGLTest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"release\\OpenGLTest.exe;#1" /manifest Win32\Release\OpenGLTest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\OpenGLTest.unsuccessfulbuild".
+         Touching "Win32\Release\OpenGLTest.lastbuildstate".
+     1>Done Building Project "C:\Users\jvmilazz\Documents\ASU\CSE 470 - Computer Graphics\Assignment 1\Assignment 1\OpenGLTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.68

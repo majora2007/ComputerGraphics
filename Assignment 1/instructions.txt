@@ -1,0 +1,7 @@
+1. No special keys to navigate. The Draw Menu provides a way to select what canvas should display.
+2. Special functionality included so that any customization UI elements that do not pertain to 
+   the graphic being displayed are greyed out.
+3. I made one change from the specification for triangle point selection. Instead of inputting three 
+   points in the form of text, a combo box allows the user to select a point. The user is then expected 
+   to select a position on the drawing canvas. After three points are assigned, a triangle is shown.
+   

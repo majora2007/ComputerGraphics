@@ -1,0 +1,6 @@
+1. Navigation is as follows. A right-click menu provides toggling capabilities. Escape quits, User arrow keys to manipulate cannon and space bar to fire.
+
+2. Special functions implemented is an Entity Framework (although it was not fully utilized in order to follow instructions fully).
+
+4. One thing that I consider important is the bullets in the game are not continuously created but instead I use a Bullet Pool.
+
